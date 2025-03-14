@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - PizzaApp</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/styles/base_style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="~/images/components/logo.png" alt="Логотип GigaPizza" class="logo">
+            <p class="title">Каталог пицц</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Главная</a></li>
+                <li><a href="/Catalog">Каталог</a></li>
+                <li><a href="/Basket">Корзина</a></li>
+                <li><a href="/AddPizza">Добавить пиццу</a></li>
+                <li><a href="/Contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 GigaPizza. Все права защищены.</p>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

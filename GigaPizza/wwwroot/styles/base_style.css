@@ -1,0 +1,133 @@
+body {
+    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+    color: #012E4A;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+main {
+    margin: 20px;
+    padding: 20px; 
+    background-color: #f9f9f9;
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+header {
+    background-color: #378BA4;
+    padding: 20px; 
+    text-align: center; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #81BECE;
+    padding: 15px 0;
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #012E4A;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #378BA4;
+}
+
+form {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #378BA4;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, 
+textarea, 
+select {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #378BA4;
+    border-radius: 4px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+input:focus, 
+textarea:focus, 
+select:focus {
+    border-color: #81BECE;
+    outline: none;
+}
+
+input[type="checkbox"], 
+input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+button {
+    background-color: #81BECE;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #378BA4;
+}
+
+footer {
+    background-color: #378BA4; 
+    padding: 10px;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.title {
+    font-size: 2em; /* Размер шрифта, аналогичный h1 */
+    font-weight: bold; /* Жирный шрифт */
+    line-height: 1.2; /* Высота строки для лучшей читаемости */
+    margin: 0; /* Убираем отступы, если они не нужны */
+    color: #012E4A; /* Цвет текста, можно изменить на нужный вам */
+    text-align: center; /* Выравнивание по центру, если нужно */
+    font-family: Arial, sans-serif; /* Шрифт, похожий на стандартный шрифт для h1 */
+}

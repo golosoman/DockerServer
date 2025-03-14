@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "GigaPizza.Controllers.PizzaController",
+    "Method": "GetPizzaDetails",
+    "RelativePath": "api/pizza/details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GigaPizza.Controllers.PizzaController",
+    "Method": "FilterPizzas",
+    "RelativePath": "api/pizza/filter",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "GigaPizza.Controllers.PizzaFilterRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

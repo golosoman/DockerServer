@@ -1,0 +1,29 @@
+form {
+    margin-top: 20px;
+    width: 80%;
+}
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #555;
+}
+input[type="text"],
+input[type="number"],
+textarea,
+select,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+.error {
+    color: red;
+    margin-top: 10px;
+}

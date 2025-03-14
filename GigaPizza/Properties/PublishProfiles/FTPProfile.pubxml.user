@@ -1,0 +1,478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- https://go.microsoft.com/fwlink/?LinkID=208121. -->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwgdOmNEPgUi3Tl2Tn4bLjwAAAAACAAAAAAAQZgAAAAEAACAAAAAMBX8RCWm+BqBVupRN1W/hqIPYMQxg+7gBRAAeJ7bjPAAAAAAOgAAAAAIAACAAAAAUq1pNNiJR/bn8WWfkQ9vnE8g95Me9KG3sA1dlJ8RTnSAAAABUpnCdcdP1C/Jbd0Pb9T5XdCH2Lmtyw/XhZEpZP0CVW0AAAAAdumGRfOrXiA9UIp2DKEM+4wCSot5lLsz//19ZuK1kMmmhssjLU9pFDDZlNbVQH4V+2SGiBFbmN+nQNnYfPNw6</EncryptedPassword>
+    <History>True|2025-03-09T10:22:06.6021823Z||;False|2025-03-09T13:56:57.9076589+04:00||;</History>
+    <LastFailureDetails />
+    <_PublishTargetUrl>ftp://win1069.site4now.net/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>03/09/2025 13:42:41</publishTime>
+    </File>
+    <File Include="Azure.Core.dll">
+      <publishTime>02/26/2024 19:24:40</publishTime>
+    </File>
+    <File Include="Azure.Identity.dll">
+      <publishTime>10/06/2024 20:43:48</publishTime>
+    </File>
+    <File Include="GigaPizza.deps.json">
+      <publishTime>03/09/2025 13:57:42</publishTime>
+    </File>
+    <File Include="GigaPizza.dll">
+      <publishTime>03/09/2025 13:57:41</publishTime>
+    </File>
+    <File Include="GigaPizza.exe">
+      <publishTime>03/09/2025 13:57:41</publishTime>
+    </File>
+    <File Include="GigaPizza.pdb">
+      <publishTime>03/09/2025 13:57:41</publishTime>
+    </File>
+    <File Include="GigaPizza.runtimeconfig.json">
+      <publishTime>03/09/2025 13:54:17</publishTime>
+    </File>
+    <File Include="GigaPizza.staticwebassets.endpoints.json">
+      <publishTime>03/09/2025 13:55:00</publishTime>
+    </File>
+    <File Include="Microsoft.Bcl.AsyncInterfaces.dll">
+      <publishTime>04/15/2020 02:39:12</publishTime>
+    </File>
+    <File Include="Microsoft.Data.SqlClient.dll">
+      <publishTime>08/27/2024 22:22:48</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>01/17/2025 21:02:50</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>01/17/2025 21:03:32</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>01/17/2025 21:04:02</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.SqlServer.dll">
+      <publishTime>01/17/2025 21:04:12</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Abstractions.dll">
+      <publishTime>01/16/2025 23:07:08</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Caching.Memory.dll">
+      <publishTime>01/16/2025 23:07:22</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>01/16/2025 23:07:02</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>01/16/2025 23:01:30</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.DependencyInjection.dll">
+      <publishTime>01/16/2025 23:04:24</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>01/16/2025 23:07:16</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Logging.dll">
+      <publishTime>01/16/2025 23:07:22</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Options.dll">
+      <publishTime>01/16/2025 23:07:02</publishTime>
+    </File>
+    <File Include="Microsoft.Extensions.Primitives.dll">
+      <publishTime>01/16/2025 23:04:22</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.dll">
+      <publishTime>07/06/2024 02:09:28</publishTime>
+    </File>
+    <File Include="Microsoft.Identity.Client.Extensions.Msal.dll">
+      <publishTime>07/06/2024 02:14:52</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Abstractions.dll">
+      <publishTime>01/12/2023 08:56:56</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>01/12/2023 08:34:00</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Logging.dll">
+      <publishTime>01/12/2023 08:35:22</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.dll">
+      <publishTime>01/12/2023 08:37:28</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Protocols.OpenIdConnect.dll">
+      <publishTime>12/01/2023 08:48:08</publishTime>
+    </File>
+    <File Include="Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>12/01/2023 08:41:50</publishTime>
+    </File>
+    <File Include="Microsoft.SqlServer.Server.dll">
+      <publishTime>01/27/2022 21:19:08</publishTime>
+    </File>
+    <File Include="Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/23/2021 03:40:24</publishTime>
+    </File>
+    <File Include="runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll">
+      <publishTime>01/16/2025 23:07:26</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll">
+      <publishTime>08/27/2024 22:22:48</publishTime>
+    </File>
+    <File Include="runtimes/unix/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>10/23/2021 03:51:42</publishTime>
+    </File>
+    <File Include="runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/11/2023 22:56:28</publishTime>
+    </File>
+    <File Include="runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/11/2023 22:56:28</publishTime>
+    </File>
+    <File Include="runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/11/2023 22:56:18</publishTime>
+    </File>
+    <File Include="runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll">
+      <publishTime>08/11/2023 22:56:18</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll">
+      <publishTime>08/27/2024 22:23:00</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll">
+      <publishTime>10/23/2021 03:40:18</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Drawing.Common.dll">
+      <publishTime>10/23/2021 03:48:10</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Runtime.Caching.dll">
+      <publishTime>10/23/2021 03:52:44</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/23/2021 03:51:04</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/net6.0/System.Windows.Extensions.dll">
+      <publishTime>10/23/2021 03:49:58</publishTime>
+    </File>
+    <File Include="System.ClientModel.dll">
+      <publishTime>01/03/2024 21:43:00</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>08/19/2022 23:58:02</publishTime>
+    </File>
+    <File Include="System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>01/16/2025 23:04:06</publishTime>
+    </File>
+    <File Include="System.Drawing.Common.dll">
+      <publishTime>10/23/2021 03:49:12</publishTime>
+    </File>
+    <File Include="System.Formats.Asn1.dll">
+      <publishTime>01/16/2025 23:07:54</publishTime>
+    </File>
+    <File Include="System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>12/01/2023 08:31:48</publishTime>
+    </File>
+    <File Include="System.IO.Pipelines.dll">
+      <publishTime>01/16/2025 23:01:30</publishTime>
+    </File>
+    <File Include="System.Memory.Data.dll">
+      <publishTime>04/08/2021 20:45:54</publishTime>
+    </File>
+    <File Include="System.Runtime.Caching.dll">
+      <publishTime>10/23/2021 03:52:02</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>10/23/2021 03:51:04</publishTime>
+    </File>
+    <File Include="System.Security.Permissions.dll">
+      <publishTime>10/23/2021 03:49:50</publishTime>
+    </File>
+    <File Include="System.Text.Encodings.Web.dll">
+      <publishTime>01/16/2025 23:07:26</publishTime>
+    </File>
+    <File Include="System.Text.Json.dll">
+      <publishTime>01/16/2025 23:08:48</publishTime>
+    </File>
+    <File Include="System.Windows.Extensions.dll">
+      <publishTime>10/23/2021 03:49:44</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>03/09/2025 13:57:42</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>03/08/2025 22:46:16</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/GigaPizza.styles.css">
+      <publishTime>03/09/2025 13:54:16</publishTime>
+    </File>
+    <File Include="wwwroot/images/components/logo.png">
+      <publishTime>12/01/2024 22:22:48</publishTime>
+    </File>
+    <File Include="wwwroot/images/components/trash.png">
+      <publishTime>12/02/2024 00:45:39</publishTime>
+    </File>
+    <File Include="wwwroot/images/map.png">
+      <publishTime>12/02/2024 00:20:26</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza/cancel.png">
+      <publishTime>03/09/2025 12:25:45</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza/close %281%29.png">
+      <publishTime>03/09/2025 13:00:56</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza/pizza_arriva.avif">
+      <publishTime>12/01/2024 23:04:05</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza/pizza_beef_stroganoff.avif">
+      <publishTime>12/01/2024 23:02:41</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza/pizza_cheese.avif">
+      <publishTime>12/01/2024 19:07:31</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza/pizza_cola_barbecue.avif">
+      <publishTime>12/01/2024 23:00:41</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza/pizza_diablo.avif">
+      <publishTime>12/01/2024 18:47:23</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza/pizza_hum_and_mushrooms.avif">
+      <publishTime>12/01/2024 18:28:02</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza/pizza_margarita.avif">
+      <publishTime>12/01/2024 18:38:36</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza/pizza_pepperoni.avif">
+      <publishTime>12/01/2024 19:07:22</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza/pizza_with_adjika.avif">
+      <publishTime>12/01/2024 23:02:45</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza/s1200 %281%29.jpg">
+      <publishTime>03/09/2025 12:28:28</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza_locations/location_1.webp">
+      <publishTime>12/09/2024 14:59:35</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza_locations/location_2.jpg">
+      <publishTime>12/09/2024 14:58:39</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza_locations/location_3.webp">
+      <publishTime>12/09/2024 15:00:14</publishTime>
+    </File>
+    <File Include="wwwroot/images/pizza_locations/location_4.jpg">
+      <publishTime>12/09/2024 15:13:26</publishTime>
+    </File>
+    <File Include="wwwroot/images/user/businessman.png">
+      <publishTime>12/01/2024 22:21:20</publishTime>
+    </File>
+    <File Include="wwwroot/images/user/man.png">
+      <publishTime>12/01/2024 23:33:20</publishTime>
+    </File>
+    <File Include="wwwroot/images/user/woman_1.png">
+      <publishTime>12/01/2024 22:21:10</publishTime>
+    </File>
+    <File Include="wwwroot/images/user/woman_2.png">
+      <publishTime>12/01/2024 23:33:32</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>03/08/2025 22:46:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>03/08/2025 22:46:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>03/08/2025 22:46:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>03/08/2025 22:46:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>03/08/2025 22:46:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>03/08/2025 22:46:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>03/08/2025 22:46:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>03/08/2025 22:46:16</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>03/08/2025 22:46:17</publishTime>
+    </File>
+    <File Include="wwwroot/scripts/pizza_catalog.js">
+      <publishTime>03/07/2025 22:12:18</publishTime>
+    </File>
+    <File Include="wwwroot/scripts/validator.js">
+      <publishTime>03/07/2025 23:52:09</publishTime>
+    </File>
+    <File Include="wwwroot/styles/base_style.css">
+      <publishTime>12/09/2024 13:55:59</publishTime>
+    </File>
+    <File Include="wwwroot/styles/basket_style.css">
+      <publishTime>03/09/2025 12:57:46</publishTime>
+    </File>
+    <File Include="wwwroot/styles/form_style.css">
+      <publishTime>12/09/2024 00:51:09</publishTime>
+    </File>
+    <File Include="wwwroot/styles/pizza_add.css">
+      <publishTime>03/07/2025 23:11:29</publishTime>
+    </File>
+    <File Include="wwwroot/styles/pizza_catalog.css">
+      <publishTime>02/28/2025 21:42:30</publishTime>
+    </File>
+    <File Include="wwwroot/styles/pizza_item_style.css">
+      <publishTime>03/07/2025 22:23:08</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

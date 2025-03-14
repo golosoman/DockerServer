@@ -1,0 +1,75 @@
+.product-item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.quantity-controls {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-controls input {
+    width: 30px;
+    text-align: center;
+    margin: 0 5px;
+}
+
+.remove-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.remove-button:hover {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.remove-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.total {
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+.buttons a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #81BECE;
+    color: #012E4A;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.buttons a:hover {
+    background-color: #378BA4;
+}
+
+.pizza-image {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.description {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #555;
+}

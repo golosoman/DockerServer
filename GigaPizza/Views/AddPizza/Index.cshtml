@@ -1,0 +1,97 @@
+@model GigaPizza.Models.AddPizzaViewModel
+@{
+    ViewData["Title"] = "Добавить Пиццу";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/styles/base_style.css">
+    <link rel="stylesheet" href="~/styles/form_style.css">
+    <link rel="stylesheet" href="~/styles/pizza_add.css">
+</head>
+
+
+<body>
+    <main>
+        <h1>Добавление пиццы в каталог</h1>
+        <p>Пожалуйста, заполните форму ниже, чтобы добавить новую пиццу в наш каталог. Укажите название, ингредиенты,
+            цену, загрузите фото, выберите категории и добавьте описание. Все поля обязательны для заполнения.</p>
+
+        <strong>Форма добавления пиццы</strong>
+        <form id="pizza-form" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="pizza-name">Название пиццы:</label>
+                <input type="text" id="pizza-name" name="PizzaName" value="@Model.PizzaName" required>
+                <span class="error-message" id="pizza-name-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="ingredients">Ингредиенты:</label>
+                <input type="text" id="ingredients" name="Ingredients" value="@Model.Ingredients" required>
+                <span class="error-message" id="ingredients-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="recommended-drinks">Рекомендуемые напитки:</label>
+                <input type="text" id="recommended-drinks" name="RecommendedDrinks" value="@Model.RecommendedDrinks"
+                    required>
+                <span class="error-message" id="recommended-drinks-error"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label for="price">Цена:</label>
+                <input type="number" id="price" name="Price" value="@Model.Price" required>
+                <span class="error-message" id="price-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="photo">Фото:</label>
+                <input type="file" id="photo" name="Photo" accept=".jpg,.jpeg,.png,.gif" required>
+                <span class="error-message" id="photo-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Категории:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="meat" name="Categories" value="Мясная"
+                        @(Model.Categories.Contains("Мясная") ? "checked" : "")>
+                    <label for="meat">Мясная</label>
+
+                    <input type="checkbox" id="vegetarian" name="Categories" value="Вегетарианская"
+                        @(Model.Categories.Contains("Вегетарианская") ? "checked" : "")>
+                    <label for="vegetarian">Вегетарианская</label>
+
+                    <input type="checkbox" id="spicy" name="Categories" value="Острая"
+                        @(Model.Categories.Contains("Острая") ? "checked" : "")>
+                    <label for="spicy">Острая</label>
+                </div>
+                <span class="error-message" id="category-error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="description">Описание:</label>
+                <textarea id="description" name="Description" rows="4" required>@Model.Description</textarea>
+                <span class="error-message" id="description-error"></span>
+            </div>
+
+            <button type="submit">Отправить</button>
+        </form>
+    </main>
+
+    <script src="~/scripts/validator.js" asp-append-version="true"></script>
+
+    @if (TempData["ErrorMessages"] != null)
+    {
+        <script>
+            alert('@TempData["ErrorMessages"]');
+        </script>
+    }
+</body>

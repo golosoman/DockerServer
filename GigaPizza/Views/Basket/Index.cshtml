@@ -1,0 +1,61 @@
+@model GigaPizza.Models.BasketViewModel
+
+@{
+    ViewData["Title"] = "Корзина";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // если используется общий layout
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/styles/base_style.css">
+    <link rel="stylesheet" href="~/styles/basket_style.css">
+</head>
+
+<body>
+    <main>
+        <h1>Корзина</h1>
+
+        <div class="description">
+            <p>Ваша корзина содержит выбранные вами товары. Вы можете изменить количество каждой пиццы, удалить ненужные
+                позиции или перейти к оформлению заказа. Убедитесь, что вы проверили все элементы перед завершением
+                покупки!</p>
+            <p>Мы предлагаем быструю и удобную доставку на дом. Вы можете выбрать способ оплаты: наличными при получении
+                или картой онлайн. Обратите внимание, что минимальная сумма заказа составляет 500 рублей.</p>
+        </div>
+
+        @foreach (var item in Model.CartItems)
+        {
+            <div class="cart-item">
+                <div class="product-item">
+                    <img src="@item.ImageUrl" alt="@item.Name" class="pizza-image">
+                    <span>@item.Name</span>
+                </div>
+                <div class="quantity-controls">
+                    <button>-</button>
+                    <input type="number" value="@item.Quantity" min="0" readonly>
+                    <button>+</button>
+                    <button class="remove-button" data-id="@item.Id">
+                        <img src="~/images/components/trash.png" alt="Удалить">
+                    </button>
+                </div>
+                <span>@item.TotalPrice руб.</span>
+            </div>
+        }
+
+        <div class="total">
+            Общая сумма: @Model.TotalPrice руб.
+        </div>
+
+        <div class="buttons">
+            <a href="~/Catalog">Вернуться в каталог</a>
+            <a href="~/Order">Оформить заказ</a>
+        </div>
+    </main>
+</body>
+
+</html>

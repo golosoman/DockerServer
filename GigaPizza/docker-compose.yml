@@ -1,0 +1,49 @@
+version: '2.1'
+
+services:
+  webapp:
+    build: 
+      context: .
+      dockerfile: WebMVC.Dockerfile
+      args:
+        - BUILD_CONFIGURATION=Release
+    ports:
+        - "5000:5000"  # HTTP
+        #- "5001:5001"  # HTTPS
+    volumes:
+      - pizza_data:/data
+    environment:
+      - ConnectionStrings__DefaultConnection=Data Source=/data/pizza.db;Cache=Shared
+    networks:
+        - app-network
+    deploy:
+          replicas: 1
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./ssl/server.pem:/etc/ssl/certs/server.crt
+      - ./ssl/privkey.pem:/etc/ssl/private/server.key
+      - ./ssl/chain.pem:/etc/ssl/certs/chain.crt
+      - ./nginx_cache:/var/cache/nginx
+    depends_on:
+      - webapp
+    # healthcheck:
+    #     test: ["CMD", "curl", "-f", "http://localhost:80"]
+    #     interval: 10s
+    #     timeout: 5s
+    #     retries: 10
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  pizza_data:
+  nginx_cache:  

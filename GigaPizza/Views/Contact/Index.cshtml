@@ -1,0 +1,104 @@
+@{
+    ViewData["Title"] = "Контакты";
+}
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/styles/base_style.css">
+    <style>
+        .map-container {
+            width: 100%;
+            height: 400px;
+            margin: 20px 0;
+        }
+
+        .pizza-locations {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .pizza-location {
+            margin-bottom: 20px;
+            width: calc(50% - 10px);
+        }
+
+        .pizza-location img {
+            width: 100%;
+            height: auto;
+            max-width: 400px;
+            max-height: 300px;
+        }
+
+        main {
+            width: 80%;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>GigaPizza в городах Пиццерийный, Городок, Уютный, Новый</h1>
+        <div class="info">
+            <p>GigaPizza - это сеть пиццерий, которая предлагает своим клиентам только самые вкусные и качественные
+                пиццы, приготовленные из свежих ингредиентов. Мы стремимся создать атмосферу уюта и комфорта для наших
+                гостей, чтобы каждый визит к нам был незабываемым.</p>
+            <p>Мы верим, что хорошая еда объединяет людей. Наша цель - доставить радость и удовлетворение каждому
+                клиенту, предоставляя отличный сервис и высококачественную продукцию.</p>
+        </div>
+
+        <div class="pizza-locations">
+            <article class="pizza-location">
+                <h2 class="dealer-center-header">
+                    GigaPizza Пиццерийный
+                </h2>
+                <p><b>Пиццерия открылась в январе 2023 года,<br>расположена по адресу: г. Пиццерийный, ул. Тестовая, д.
+                        1.</b></p>
+                <p class="pizza-location-contacts">Телефон: <a href="tel:+71234567890">+7 (123) 456-78-90</a>. Email: <a
+                        href="mailto:info@pizzaservice.com">info@pizzaservice.com</a></p>
+                <img src="~/images/pizza_locations/location_1.webp" alt="Пиццерия Пиццерийный"
+                    class="pizza-location-img">
+            </article>
+
+            <article class="pizza-location">
+                <h2 class="dealer-center-header">
+                    GigaPizza Городок
+                </h2>
+                <p><b>Пиццерия открылась в марте 2023 года,<br>расположена по адресу: г. Городок, ул. Примерная, д.
+                        5.</b></p>
+                <p class="pizza-location-contacts">Телефон: <a href="tel:+71234567891">+7 (123) 456-78-91</a>. Email: <a
+                        href="mailto:info@pizzaservice.com">info@pizzaservice.com</a></p>
+                <img src="~/images/pizza_locations/location_2.jpg" alt="Пиццерия Городок" class="pizza-location-img">
+            </article>
+
+            <article class="pizza-location">
+                <h2 class="dealer-center-header">
+                    GigaPizza Уютный
+                </h2>
+                <p><b>Пиццерия открылась в апреле 2023 года,<br>расположена по адресу: г. Уютный, ул. Комфортная, д.
+                        3.</b></p>
+                <p class="pizza-location-contacts">Телефон: <a href="tel:+71234567892">+7 (123) 456-78-92</a>. Email: <a
+                        href="mailto:info@pizzaservice.com">info@pizzaservice.com</a></p>
+                <img src="~/images/pizza_locations/location_3.webp" alt="Пиццерия Уютный" class="pizza-location-img">
+            </article>
+
+            <article class="pizza-location">
+                <h2 class="dealer-center-header">
+                    GigaPizza Новый
+                </h2>
+                <p><b>Пиццерия открылась в мае 2023 года,<br>расположена по адресу: г. Новый, ул. Свежая, д. 7.</b></p>
+                <p class="pizza-location-contacts">Телефон: <a href="tel:+71234567893">+7 (123) 456-78-93</a>. Email: <a
+                        href="mailto:info@pizzaservice.com">info@pizzaservice.com</a></p>
+                <img src="~/images/pizza_locations/location_4.jpg" alt="Пиццерия Новый" class="pizza-location-img">
+            </article>
+        </div>
+    </main>
+</body>
+
+</html>
