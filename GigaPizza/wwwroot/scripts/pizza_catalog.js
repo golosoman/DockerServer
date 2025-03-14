@@ -169,3 +169,56 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const pizzaNameInput = document.getElementById('pizza-name');
+    const autocompleteResults = document.getElementById('autocomplete-results');
+
+    pizzaNameInput.addEventListener('input', () => {
+        const query = pizzaNameInput.value.trim();
+        if (query.length < 2) {
+            autocompleteResults.innerHTML = ''; // Очищаем результаты, если введено мало символов
+            return;
+        }
+
+        sendAjaxRequest(`/api/pizza/autocomplete?term=${encodeURIComponent(query)}`, 'GET', null, (error, data) => {
+            if (error) {
+                console.error("Ошибка при автозаполнении:", error);
+                return;
+            }
+
+            // Очищаем предыдущие результаты
+            autocompleteResults.innerHTML = '';
+
+            // Если нет результатов, скрываем блок
+            if (data.length === 0) {
+                autocompleteResults.style.display = 'none';
+                return;
+            }
+
+            // Создаём список подсказок
+            data.forEach(name => {
+                const item = document.createElement('div');
+                item.classList.add('autocomplete-item');
+                item.textContent = name;
+
+                item.addEventListener('click', () => {
+                    pizzaNameInput.value = name;
+                    autocompleteResults.innerHTML = ''; // Очищаем список после выбора
+                });
+
+                autocompleteResults.appendChild(item);
+            });
+
+            autocompleteResults.style.display = 'block';
+        });
+    });
+
+    // Закрытие списка при клике вне
+    document.addEventListener('click', (event) => {
+        if (!pizzaNameInput.contains(event.target) && !autocompleteResults.contains(event.target)) {
+            autocompleteResults.innerHTML = '';
+        }
+    });
+});
+

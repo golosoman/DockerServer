@@ -28,7 +28,8 @@
         <form id="pizza-form" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label for="pizza-name">Название пиццы:</label>
-                <input type="text" id="pizza-name" name="PizzaName" value="@Model.PizzaName" required>
+                <input type="text" id="pizza-name" name="PizzaName" value="@Model.PizzaName" required autocomplete="off">
+                <div id="autocomplete-results" class="autocomplete-dropdown"></div>
                 <span class="error-message" id="pizza-name-error"></span>
             </div>
 

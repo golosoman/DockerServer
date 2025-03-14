@@ -74,3 +74,22 @@ button {
 .checkbox-group input[type="checkbox"]:checked+label {
     color: #378BA4;
 }
+
+.autocomplete-dropdown {
+    position: absolute;
+    background: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    width: 100%;
+    display: none;
+}
+
+.autocomplete-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+    .autocomplete-item:hover {
+        background: #f0f0f0;
+    }

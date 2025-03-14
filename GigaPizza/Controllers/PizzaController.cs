@@ -76,6 +76,23 @@
 
             return Ok(pizza);
         }
+
+        [HttpGet("autocomplete")]
+        public async Task<IActionResult> Autocomplete([FromQuery] string term)
+        {
+            if (string.IsNullOrEmpty(term))
+            {
+                return BadRequest("Поисковый запрос не может быть пустым.");
+            }
+
+            var suggestions = await _context.Pizzas
+                .Where(p => p.Name.Contains(term))
+                .Select(p => p.Name)
+                .Distinct()
+                .ToListAsync();
+
+            return Ok(suggestions);
+        }
     }
 
     public class PizzaFilterRequest
