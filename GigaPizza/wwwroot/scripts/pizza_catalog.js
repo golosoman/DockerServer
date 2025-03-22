@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // При вводе текста в поле поиска вызывается автодополнение
     searchInput.addEventListener('input', () => {
-        const query = searchInput.value.trim();
+        const query = searchInput.value.trim().toLowerCase();
         if (query.length < 2) {
             autocompleteResults.innerHTML = '';
             autocompleteResults.style.display = 'none';
