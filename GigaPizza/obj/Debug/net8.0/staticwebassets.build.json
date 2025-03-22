@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Lr/Oi0/yqWqfLe1TbTByZevnF0pXCMTqf5DFSke87lw=",
+  "Hash": "OyCu+T8WFHjsbFP0iKtCCYGozaBALzRiLpFjdVsM5Jw=",
   "Source": "GigaPizza",
   "BasePath": "_content/GigaPizza",
   "Mode": "Default",
@@ -248,12 +248,12 @@
       "OriginalItemSpec": "wwwroot\\images\\pizza_locations\\location_4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\cancel.png",
+      "Identity": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\23e055ea-63bc-474e-91cc-99909d233f77.png",
       "SourceId": "GigaPizza",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\",
       "BasePath": "_content/GigaPizza",
-      "RelativePath": "images/pizza/cancel#[.{fingerprint}]?.png",
+      "RelativePath": "images/pizza/23e055ea-63bc-474e-91cc-99909d233f77#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -262,19 +262,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "30por7aqt8",
-      "Integrity": "bdTZUJ6jrKjqGkTa7BZdyHitoLpbdbQ/WkSmoPrJpPc=",
+      "Fingerprint": "1ys3rsbeso",
+      "Integrity": "SdCJF5BWB+8COhOa7y2zGztVReEdGaW/hTCqIwqA66c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\pizza\\cancel.png"
+      "OriginalItemSpec": "wwwroot\\images\\pizza\\23e055ea-63bc-474e-91cc-99909d233f77.png"
     },
     {
-      "Identity": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\close (1).png",
+      "Identity": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png",
       "SourceId": "GigaPizza",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\",
       "BasePath": "_content/GigaPizza",
-      "RelativePath": "images/pizza/close (1)#[.{fingerprint}]?.png",
+      "RelativePath": "images/pizza/951f0aee-45e3-4bd5-becb-9e9b56c6abd2#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -283,11 +283,74 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "u2xklxoqgx",
-      "Integrity": "dj0Yna9n/8VZLASgsDTfdD8oJsG7Qjyh5xb9aJC5EWk=",
+      "Fingerprint": "1ys3rsbeso",
+      "Integrity": "SdCJF5BWB+8COhOa7y2zGztVReEdGaW/hTCqIwqA66c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\pizza\\close (1).png"
+      "OriginalItemSpec": "wwwroot\\images\\pizza\\951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\ЖабаСтруктура.drawio (1).drawio (1).png",
+      "SourceId": "GigaPizza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\",
+      "BasePath": "_content/GigaPizza",
+      "RelativePath": "images/pizza/ЖабаСтруктура.drawio (1).drawio (1)#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9fg9rqi3n6",
+      "Integrity": "m8EnXQir5nDjGbNZKhr+gk+dYzsHr2B1YU34KHH3VtI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pizza\\ЖабаСтруктура.drawio (1).drawio (1).png"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png",
+      "SourceId": "GigaPizza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\",
+      "BasePath": "_content/GigaPizza",
+      "RelativePath": "images/pizza/a61d7fd8-b700-40ee-ac7f-b1198941d4ea#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e337n0y6nc",
+      "Integrity": "lt2AynzSXiLnuZcTCBmych5mJcTU05KWXwLjxMNF5Ds=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pizza\\a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png"
+    },
+    {
+      "Identity": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\f9a0c301-03df-413c-8229-3b20532801b3.png",
+      "SourceId": "GigaPizza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\",
+      "BasePath": "_content/GigaPizza",
+      "RelativePath": "images/pizza/f9a0c301-03df-413c-8229-3b20532801b3#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "iu84zue1jr",
+      "Integrity": "Np88+UWMlC2UuWKDpXmINokkCVjRIpbx97SNwYQAO40=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pizza\\f9a0c301-03df-413c-8229-3b20532801b3.png"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\pizza_arriva.avif",
@@ -477,27 +540,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\pizza\\pizza_with_adjika.avif"
-    },
-    {
-      "Identity": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\s1200 (1).jpg",
-      "SourceId": "GigaPizza",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\",
-      "BasePath": "_content/GigaPizza",
-      "RelativePath": "images/pizza/s1200 (1)#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "kl6m64n2fu",
-      "Integrity": "GO8dvljLQ/vkL8uBOBNmjh9CePlJCVqgRbKnAOeHhN0=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\pizza\\s1200 (1).jpg"
     },
     {
       "Identity": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\user\\businessman.png",
@@ -1816,8 +1858,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "j5gpap8zpt",
-      "Integrity": "B6zUgwPIGLslq4Zg1GXxQkgCJhr0z59AVlbHpB9pZk4=",
+      "Fingerprint": "0ttwjmreu1",
+      "Integrity": "5Jn4qn1IwvVECzwgagIsTelcojiwi6w2mHxaD9rjUKQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scripts\\pizza_catalog.js"
@@ -1837,8 +1879,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "nb85vsokdo",
-      "Integrity": "Y6gLg0SdTRU4Nxl8ymSbWrlu9A6KsnKCqbiDxnBbbVA=",
+      "Fingerprint": "qy429nwafc",
+      "Integrity": "ompctjshkBxg7763QhGvAdL/4kUiQ4Jh7b65dMAdkwc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\scripts\\validator.js"
@@ -1921,8 +1963,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "cq4dcr2o56",
-      "Integrity": "zK5C3Wzd4mzCnc7bapwRKdax4xZluXcXn2//hC3cZZA=",
+      "Fingerprint": "txm8rpo7ao",
+      "Integrity": "35qUK9aKWhHiYb63TbXCM+LSnABczGitXWVdXnk8vDo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\styles\\pizza_add.css"
@@ -2874,8 +2916,8 @@
       ]
     },
     {
-      "Route": "images/pizza/cancel.30por7aqt8.png",
-      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\cancel.png",
+      "Route": "images/pizza/23e055ea-63bc-474e-91cc-99909d233f77.1ys3rsbeso.png",
+      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\23e055ea-63bc-474e-91cc-99909d233f77.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2884,7 +2926,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20207"
+          "Value": "19680"
         },
         {
           "Name": "Content-Type",
@@ -2892,11 +2934,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bdTZUJ6jrKjqGkTa7BZdyHitoLpbdbQ/WkSmoPrJpPc=\""
+          "Value": "\"SdCJF5BWB+8COhOa7y2zGztVReEdGaW/hTCqIwqA66c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 08:25:45 GMT"
+          "Value": "Fri, 21 Mar 2025 19:10:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2906,21 +2948,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "30por7aqt8"
+          "Value": "1ys3rsbeso"
         },
         {
           "Name": "label",
-          "Value": "images/pizza/cancel.png"
+          "Value": "images/pizza/23e055ea-63bc-474e-91cc-99909d233f77.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bdTZUJ6jrKjqGkTa7BZdyHitoLpbdbQ/WkSmoPrJpPc="
+          "Value": "sha256-SdCJF5BWB+8COhOa7y2zGztVReEdGaW/hTCqIwqA66c="
         }
       ]
     },
     {
-      "Route": "images/pizza/cancel.png",
-      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\cancel.png",
+      "Route": "images/pizza/23e055ea-63bc-474e-91cc-99909d233f77.png",
+      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\23e055ea-63bc-474e-91cc-99909d233f77.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2929,7 +2971,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "20207"
+          "Value": "19680"
         },
         {
           "Name": "Content-Type",
@@ -2937,11 +2979,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bdTZUJ6jrKjqGkTa7BZdyHitoLpbdbQ/WkSmoPrJpPc=\""
+          "Value": "\"SdCJF5BWB+8COhOa7y2zGztVReEdGaW/hTCqIwqA66c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 08:25:45 GMT"
+          "Value": "Fri, 21 Mar 2025 19:10:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2951,13 +2993,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bdTZUJ6jrKjqGkTa7BZdyHitoLpbdbQ/WkSmoPrJpPc="
+          "Value": "sha256-SdCJF5BWB+8COhOa7y2zGztVReEdGaW/hTCqIwqA66c="
         }
       ]
     },
     {
-      "Route": "images/pizza/close (1).png",
-      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\close (1).png",
+      "Route": "images/pizza/951f0aee-45e3-4bd5-becb-9e9b56c6abd2.1ys3rsbeso.png",
+      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2966,7 +3008,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19032"
+          "Value": "19680"
         },
         {
           "Name": "Content-Type",
@@ -2974,48 +3016,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dj0Yna9n/8VZLASgsDTfdD8oJsG7Qjyh5xb9aJC5EWk=\""
+          "Value": "\"SdCJF5BWB+8COhOa7y2zGztVReEdGaW/hTCqIwqA66c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 09:00:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-dj0Yna9n/8VZLASgsDTfdD8oJsG7Qjyh5xb9aJC5EWk="
-        }
-      ]
-    },
-    {
-      "Route": "images/pizza/close (1).u2xklxoqgx.png",
-      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\close (1).png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "19032"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"dj0Yna9n/8VZLASgsDTfdD8oJsG7Qjyh5xb9aJC5EWk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 09:00:56 GMT"
+          "Value": "Fri, 21 Mar 2025 19:11:19 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3025,15 +3030,298 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "u2xklxoqgx"
+          "Value": "1ys3rsbeso"
         },
         {
           "Name": "label",
-          "Value": "images/pizza/close (1).png"
+          "Value": "images/pizza/951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dj0Yna9n/8VZLASgsDTfdD8oJsG7Qjyh5xb9aJC5EWk="
+          "Value": "sha256-SdCJF5BWB+8COhOa7y2zGztVReEdGaW/hTCqIwqA66c="
+        }
+      ]
+    },
+    {
+      "Route": "images/pizza/951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png",
+      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19680"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SdCJF5BWB+8COhOa7y2zGztVReEdGaW/hTCqIwqA66c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:11:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SdCJF5BWB+8COhOa7y2zGztVReEdGaW/hTCqIwqA66c="
+        }
+      ]
+    },
+    {
+      "Route": "images/pizza/ЖабаСтруктура.drawio (1).drawio (1).9fg9rqi3n6.png",
+      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\ЖабаСтруктура.drawio (1).drawio (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m8EnXQir5nDjGbNZKhr+gk+dYzsHr2B1YU34KHH3VtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 17:38:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9fg9rqi3n6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pizza/ЖабаСтруктура.drawio (1).drawio (1).png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m8EnXQir5nDjGbNZKhr+gk+dYzsHr2B1YU34KHH3VtI="
+        }
+      ]
+    },
+    {
+      "Route": "images/pizza/ЖабаСтруктура.drawio (1).drawio (1).png",
+      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\ЖабаСтруктура.drawio (1).drawio (1).png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "54089"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m8EnXQir5nDjGbNZKhr+gk+dYzsHr2B1YU34KHH3VtI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 17:38:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m8EnXQir5nDjGbNZKhr+gk+dYzsHr2B1YU34KHH3VtI="
+        }
+      ]
+    },
+    {
+      "Route": "images/pizza/a61d7fd8-b700-40ee-ac7f-b1198941d4ea.e337n0y6nc.png",
+      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "189064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lt2AynzSXiLnuZcTCBmych5mJcTU05KWXwLjxMNF5Ds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 18:18:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e337n0y6nc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pizza/a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lt2AynzSXiLnuZcTCBmych5mJcTU05KWXwLjxMNF5Ds="
+        }
+      ]
+    },
+    {
+      "Route": "images/pizza/a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png",
+      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "189064"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lt2AynzSXiLnuZcTCBmych5mJcTU05KWXwLjxMNF5Ds=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 18:18:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lt2AynzSXiLnuZcTCBmych5mJcTU05KWXwLjxMNF5Ds="
+        }
+      ]
+    },
+    {
+      "Route": "images/pizza/f9a0c301-03df-413c-8229-3b20532801b3.iu84zue1jr.png",
+      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\f9a0c301-03df-413c-8229-3b20532801b3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Np88+UWMlC2UuWKDpXmINokkCVjRIpbx97SNwYQAO40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:08:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iu84zue1jr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/pizza/f9a0c301-03df-413c-8229-3b20532801b3.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Np88+UWMlC2UuWKDpXmINokkCVjRIpbx97SNwYQAO40="
+        }
+      ]
+    },
+    {
+      "Route": "images/pizza/f9a0c301-03df-413c-8229-3b20532801b3.png",
+      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\f9a0c301-03df-413c-8229-3b20532801b3.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17094"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Np88+UWMlC2UuWKDpXmINokkCVjRIpbx97SNwYQAO40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 21 Mar 2025 19:08:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Np88+UWMlC2UuWKDpXmINokkCVjRIpbx97SNwYQAO40="
         }
       ]
     },
@@ -3772,88 +4060,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-CIP8O7H945W7tCwZhQlBKXdpnDuhRwpHDBfLGCXPk3Q="
-        }
-      ]
-    },
-    {
-      "Route": "images/pizza/s1200 (1).jpg",
-      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\s1200 (1).jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "125570"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GO8dvljLQ/vkL8uBOBNmjh9CePlJCVqgRbKnAOeHhN0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 08:28:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-GO8dvljLQ/vkL8uBOBNmjh9CePlJCVqgRbKnAOeHhN0="
-        }
-      ]
-    },
-    {
-      "Route": "images/pizza/s1200 (1).kl6m64n2fu.jpg",
-      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\s1200 (1).jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "125570"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"GO8dvljLQ/vkL8uBOBNmjh9CePlJCVqgRbKnAOeHhN0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 08:28:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "kl6m64n2fu"
-        },
-        {
-          "Name": "label",
-          "Value": "images/pizza/s1200 (1).jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-GO8dvljLQ/vkL8uBOBNmjh9CePlJCVqgRbKnAOeHhN0="
         }
       ]
     },
@@ -8942,7 +9148,7 @@
       ]
     },
     {
-      "Route": "scripts/pizza_catalog.j5gpap8zpt.js",
+      "Route": "scripts/pizza_catalog.0ttwjmreu1.js",
       "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\scripts\\pizza_catalog.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -8952,7 +9158,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7066"
+          "Value": "11544"
         },
         {
           "Name": "Content-Type",
@@ -8960,11 +9166,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"B6zUgwPIGLslq4Zg1GXxQkgCJhr0z59AVlbHpB9pZk4=\""
+          "Value": "\"5Jn4qn1IwvVECzwgagIsTelcojiwi6w2mHxaD9rjUKQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:12:18 GMT"
+          "Value": "Fri, 21 Mar 2025 17:25:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8974,7 +9180,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "j5gpap8zpt"
+          "Value": "0ttwjmreu1"
         },
         {
           "Name": "label",
@@ -8982,7 +9188,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-B6zUgwPIGLslq4Zg1GXxQkgCJhr0z59AVlbHpB9pZk4="
+          "Value": "sha256-5Jn4qn1IwvVECzwgagIsTelcojiwi6w2mHxaD9rjUKQ="
         }
       ]
     },
@@ -8997,7 +9203,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7066"
+          "Value": "11544"
         },
         {
           "Name": "Content-Type",
@@ -9005,11 +9211,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"B6zUgwPIGLslq4Zg1GXxQkgCJhr0z59AVlbHpB9pZk4=\""
+          "Value": "\"5Jn4qn1IwvVECzwgagIsTelcojiwi6w2mHxaD9rjUKQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 18:12:18 GMT"
+          "Value": "Fri, 21 Mar 2025 17:25:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9019,7 +9225,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-B6zUgwPIGLslq4Zg1GXxQkgCJhr0z59AVlbHpB9pZk4="
+          "Value": "sha256-5Jn4qn1IwvVECzwgagIsTelcojiwi6w2mHxaD9rjUKQ="
         }
       ]
     },
@@ -9034,7 +9240,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6260"
+          "Value": "8218"
         },
         {
           "Name": "Content-Type",
@@ -9042,11 +9248,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Y6gLg0SdTRU4Nxl8ymSbWrlu9A6KsnKCqbiDxnBbbVA=\""
+          "Value": "\"ompctjshkBxg7763QhGvAdL/4kUiQ4Jh7b65dMAdkwc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 19:52:09 GMT"
+          "Value": "Fri, 21 Mar 2025 19:08:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9056,12 +9262,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Y6gLg0SdTRU4Nxl8ymSbWrlu9A6KsnKCqbiDxnBbbVA="
+          "Value": "sha256-ompctjshkBxg7763QhGvAdL/4kUiQ4Jh7b65dMAdkwc="
         }
       ]
     },
     {
-      "Route": "scripts/validator.nb85vsokdo.js",
+      "Route": "scripts/validator.qy429nwafc.js",
       "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\scripts\\validator.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -9071,7 +9277,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "6260"
+          "Value": "8218"
         },
         {
           "Name": "Content-Type",
@@ -9079,11 +9285,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Y6gLg0SdTRU4Nxl8ymSbWrlu9A6KsnKCqbiDxnBbbVA=\""
+          "Value": "\"ompctjshkBxg7763QhGvAdL/4kUiQ4Jh7b65dMAdkwc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 19:52:09 GMT"
+          "Value": "Fri, 21 Mar 2025 19:08:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9093,7 +9299,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nb85vsokdo"
+          "Value": "qy429nwafc"
         },
         {
           "Name": "label",
@@ -9101,7 +9307,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Y6gLg0SdTRU4Nxl8ymSbWrlu9A6KsnKCqbiDxnBbbVA="
+          "Value": "sha256-ompctjshkBxg7763QhGvAdL/4kUiQ4Jh7b65dMAdkwc="
         }
       ]
     },
@@ -9352,51 +9558,6 @@
       ]
     },
     {
-      "Route": "styles/pizza_add.cq4dcr2o56.css",
-      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\styles\\pizza_add.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1370"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"zK5C3Wzd4mzCnc7bapwRKdax4xZluXcXn2//hC3cZZA=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 19:11:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "cq4dcr2o56"
-        },
-        {
-          "Name": "label",
-          "Value": "styles/pizza_add.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-zK5C3Wzd4mzCnc7bapwRKdax4xZluXcXn2//hC3cZZA="
-        }
-      ]
-    },
-    {
       "Route": "styles/pizza_add.css",
       "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\styles\\pizza_add.css",
       "Selectors": [],
@@ -9407,7 +9568,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1370"
+          "Value": "1705"
         },
         {
           "Name": "Content-Type",
@@ -9415,11 +9576,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zK5C3Wzd4mzCnc7bapwRKdax4xZluXcXn2//hC3cZZA=\""
+          "Value": "\"35qUK9aKWhHiYb63TbXCM+LSnABczGitXWVdXnk8vDo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 07 Mar 2025 19:11:29 GMT"
+          "Value": "Fri, 14 Mar 2025 19:40:00 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9429,7 +9590,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zK5C3Wzd4mzCnc7bapwRKdax4xZluXcXn2//hC3cZZA="
+          "Value": "sha256-35qUK9aKWhHiYb63TbXCM+LSnABczGitXWVdXnk8vDo="
+        }
+      ]
+    },
+    {
+      "Route": "styles/pizza_add.txm8rpo7ao.css",
+      "AssetFile": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\styles\\pizza_add.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"35qUK9aKWhHiYb63TbXCM+LSnABczGitXWVdXnk8vDo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 14 Mar 2025 19:40:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "txm8rpo7ao"
+        },
+        {
+          "Name": "label",
+          "Value": "styles/pizza_add.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-35qUK9aKWhHiYb63TbXCM+LSnABczGitXWVdXnk8vDo="
         }
       ]
     },
@@ -9456,7 +9662,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Feb 2025 17:42:30 GMT"
+          "Value": "Thu, 20 Mar 2025 17:03:21 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9501,7 +9707,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Feb 2025 17:42:30 GMT"
+          "Value": "Thu, 20 Mar 2025 17:03:21 GMT"
         },
         {
           "Name": "Cache-Control",

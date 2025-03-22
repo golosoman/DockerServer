@@ -108,41 +108,77 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\map.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\cancel.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\23e055ea-63bc-474e-91cc-99909d233f77.png'))">
       <SourceType>Package</SourceType>
       <SourceId>GigaPizza</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GigaPizza</BasePath>
-      <RelativePath>images/pizza/cancel.png</RelativePath>
+      <RelativePath>images/pizza/23e055ea-63bc-474e-91cc-99909d233f77.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>30por7aqt8</Fingerprint>
-      <Integrity>bdTZUJ6jrKjqGkTa7BZdyHitoLpbdbQ/WkSmoPrJpPc=</Integrity>
+      <Fingerprint>1ys3rsbeso</Fingerprint>
+      <Integrity>SdCJF5BWB+8COhOa7y2zGztVReEdGaW/hTCqIwqA66c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\cancel.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\23e055ea-63bc-474e-91cc-99909d233f77.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\close (1).png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png'))">
       <SourceType>Package</SourceType>
       <SourceId>GigaPizza</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GigaPizza</BasePath>
-      <RelativePath>images/pizza/close (1).png</RelativePath>
+      <RelativePath>images/pizza/951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>u2xklxoqgx</Fingerprint>
-      <Integrity>dj0Yna9n/8VZLASgsDTfdD8oJsG7Qjyh5xb9aJC5EWk=</Integrity>
+      <Fingerprint>1ys3rsbeso</Fingerprint>
+      <Integrity>SdCJF5BWB+8COhOa7y2zGztVReEdGaW/hTCqIwqA66c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\close (1).png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>GigaPizza</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GigaPizza</BasePath>
+      <RelativePath>images/pizza/a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>e337n0y6nc</Fingerprint>
+      <Integrity>lt2AynzSXiLnuZcTCBmych5mJcTU05KWXwLjxMNF5Ds=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\f9a0c301-03df-413c-8229-3b20532801b3.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>GigaPizza</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GigaPizza</BasePath>
+      <RelativePath>images/pizza/f9a0c301-03df-413c-8229-3b20532801b3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>iu84zue1jr</Fingerprint>
+      <Integrity>Np88+UWMlC2UuWKDpXmINokkCVjRIpbx97SNwYQAO40=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\f9a0c301-03df-413c-8229-3b20532801b3.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\pizza_arriva.avif'))">
       <SourceType>Package</SourceType>
@@ -306,23 +342,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\pizza_with_adjika.avif'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\s1200 (1).jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\ЖабаСтруктура.drawio (1).drawio (1).png'))">
       <SourceType>Package</SourceType>
       <SourceId>GigaPizza</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GigaPizza</BasePath>
-      <RelativePath>images/pizza/s1200 (1).jpg</RelativePath>
+      <RelativePath>images/pizza/ЖабаСтруктура.drawio (1).drawio (1).png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kl6m64n2fu</Fingerprint>
-      <Integrity>GO8dvljLQ/vkL8uBOBNmjh9CePlJCVqgRbKnAOeHhN0=</Integrity>
+      <Fingerprint>9fg9rqi3n6</Fingerprint>
+      <Integrity>m8EnXQir5nDjGbNZKhr+gk+dYzsHr2B1YU34KHH3VtI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\s1200 (1).jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\ЖабаСтруктура.drawio (1).drawio (1).png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza_locations\location_1.webp'))">
       <SourceType>Package</SourceType>
@@ -1524,8 +1560,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j5gpap8zpt</Fingerprint>
-      <Integrity>B6zUgwPIGLslq4Zg1GXxQkgCJhr0z59AVlbHpB9pZk4=</Integrity>
+      <Fingerprint>0ttwjmreu1</Fingerprint>
+      <Integrity>5Jn4qn1IwvVECzwgagIsTelcojiwi6w2mHxaD9rjUKQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scripts\pizza_catalog.js'))</OriginalItemSpec>
@@ -1542,8 +1578,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nb85vsokdo</Fingerprint>
-      <Integrity>Y6gLg0SdTRU4Nxl8ymSbWrlu9A6KsnKCqbiDxnBbbVA=</Integrity>
+      <Fingerprint>qy429nwafc</Fingerprint>
+      <Integrity>ompctjshkBxg7763QhGvAdL/4kUiQ4Jh7b65dMAdkwc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scripts\validator.js'))</OriginalItemSpec>
@@ -1614,8 +1650,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cq4dcr2o56</Fingerprint>
-      <Integrity>zK5C3Wzd4mzCnc7bapwRKdax4xZluXcXn2//hC3cZZA=</Integrity>
+      <Fingerprint>txm8rpo7ao</Fingerprint>
+      <Integrity>35qUK9aKWhHiYb63TbXCM+LSnABczGitXWVdXnk8vDo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles\pizza_add.css'))</OriginalItemSpec>

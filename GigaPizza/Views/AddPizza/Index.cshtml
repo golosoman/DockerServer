@@ -1,13 +1,10 @@
-@model GigaPizza.Models.AddPizzaViewModel
 @{
     ViewData["Title"] = "Добавить Пиццу";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,40 +13,38 @@
     <link rel="stylesheet" href="~/styles/form_style.css">
     <link rel="stylesheet" href="~/styles/pizza_add.css">
 </head>
-
-
 <body>
     <main>
         <h1>Добавление пиццы в каталог</h1>
-        <p>Пожалуйста, заполните форму ниже, чтобы добавить новую пиццу в наш каталог. Укажите название, ингредиенты,
-            цену, загрузите фото, выберите категории и добавьте описание. Все поля обязательны для заполнения.</p>
+        <p>
+            Пожалуйста, заполните форму ниже, чтобы добавить новую пиццу в наш каталог. Укажите название, ингредиенты,
+            цену, загрузите фото, выберите категории и добавьте описание. Все поля обязательны для заполнения.
+        </p>
 
         <strong>Форма добавления пиццы</strong>
-        <form id="pizza-form" method="post" enctype="multipart/form-data">
+        <form id="pizza-form" method="post" enctype="multipart/form-data" action="/api/pizza">
             <div class="form-group">
                 <label for="pizza-name">Название пиццы:</label>
-                <input type="text" id="pizza-name" name="PizzaName" value="@Model.PizzaName" required autocomplete="off">
+                <input type="text" id="pizza-name" name="PizzaName" required autocomplete="off">
                 <div id="autocomplete-results" class="autocomplete-dropdown"></div>
                 <span class="error-message" id="pizza-name-error"></span>
             </div>
 
             <div class="form-group">
                 <label for="ingredients">Ингредиенты:</label>
-                <input type="text" id="ingredients" name="Ingredients" value="@Model.Ingredients" required>
+                <input type="text" id="ingredients" name="Ingredients" required>
                 <span class="error-message" id="ingredients-error"></span>
             </div>
 
             <div class="form-group">
                 <label for="recommended-drinks">Рекомендуемые напитки:</label>
-                <input type="text" id="recommended-drinks" name="RecommendedDrinks" value="@Model.RecommendedDrinks"
-                    required>
+                <input type="text" id="recommended-drinks" name="RecommendedDrinks" required>
                 <span class="error-message" id="recommended-drinks-error"></span>
             </div>
 
-
             <div class="form-group">
                 <label for="price">Цена:</label>
-                <input type="number" id="price" name="Price" value="@Model.Price" required>
+                <input type="number" id="price" name="Price" required>
                 <span class="error-message" id="price-error"></span>
             </div>
 
@@ -62,16 +57,13 @@
             <div class="form-group">
                 <label>Категории:</label>
                 <div class="checkbox-group">
-                    <input type="checkbox" id="meat" name="Categories" value="Мясная"
-                        @(Model.Categories.Contains("Мясная") ? "checked" : "")>
+                    <input type="checkbox" id="meat" name="Categories" value="мясная">
                     <label for="meat">Мясная</label>
 
-                    <input type="checkbox" id="vegetarian" name="Categories" value="Вегетарианская"
-                        @(Model.Categories.Contains("Вегетарианская") ? "checked" : "")>
+                    <input type="checkbox" id="vegetarian" name="Categories" value="вегетарианская">
                     <label for="vegetarian">Вегетарианская</label>
 
-                    <input type="checkbox" id="spicy" name="Categories" value="Острая"
-                        @(Model.Categories.Contains("Острая") ? "checked" : "")>
+                    <input type="checkbox" id="spicy" name="Categories" value="острая">
                     <label for="spicy">Острая</label>
                 </div>
                 <span class="error-message" id="category-error"></span>
@@ -79,7 +71,7 @@
 
             <div class="form-group">
                 <label for="description">Описание:</label>
-                <textarea id="description" name="Description" rows="4" required>@Model.Description</textarea>
+                <textarea id="description" name="Description" rows="4" required></textarea>
                 <span class="error-message" id="description-error"></span>
             </div>
 
@@ -89,6 +81,7 @@
 
     <script src="~/scripts/validator.js" asp-append-version="true"></script>
 
+    @* Если в TempData есть сообщения об ошибках, можно их показать через alert *@
     @if (TempData["ErrorMessages"] != null)
     {
         <script>
@@ -96,3 +89,4 @@
         </script>
     }
 </body>
+</html>

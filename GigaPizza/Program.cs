@@ -1,6 +1,7 @@
-using GigaPizza.Utils;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.StaticFiles;
+using GigaPizza.Domain;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,8 +20,20 @@ var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
-    var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    DbInitializer.Initialize(context);
+    var services = scope.ServiceProvider;
+    var dbContext = services.GetRequiredService<ApplicationDbContext>();
+
+    // Если в режиме разработки – удаляем существующую базу, чтобы миграции применились корректно
+    if (app.Environment.IsDevelopment())
+    {
+        dbContext.Database.EnsureDeleted();
+    }
+
+    // Применяем миграции; если база отсутствует, она будет создана согласно модели
+    dbContext.Database.Migrate();
+
+    // Инициализация данных, если необходимо
+    ApplicationDbContext.Seed(services);
 }
 
 var provider = new FileExtensionContentTypeProvider();

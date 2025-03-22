@@ -14,6 +14,32 @@
 
     <link rel="stylesheet" href="~/styles/pizza_item_style.css">
     <link rel="stylesheet" href="~/styles/pizza_catalog.css">
+
+    <style>
+        .autocomplete-dropdown {
+            display: block !important;
+            position: absolute;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            z-index: 1000;
+            width: 220px;
+            overflow: hidden;
+        }
+
+        .autocomplete-item {
+            padding: 8px 12px;
+            cursor: pointer;
+            transition: background 0.2s ease, color 0.2s ease;
+        }
+
+            .autocomplete-item:hover,
+            .autocomplete-item.active {
+                background: #378BA4;
+                color: #fff;
+            }
+
+    </style>
 </head>
 
 <body>
@@ -25,7 +51,9 @@
                 <div class="search-container">
                     <strong>Поиск пиццы по названию</strong>
                     <input type="text" id="search" placeholder="Поиск пиццы...">
+                    <div id="autocomplete-results" class="autocomplete-dropdown" style="display:none;"></div>
                 </div>
+
                 <strong>Фильтр по категориям</strong>
                 <label>
                     <input type="checkbox" name="type" value="мясная"> Мясные
@@ -46,19 +74,19 @@
             <div class="pizza-catalog-container">
                 <h1>Каталог наших пицц</h1>
                 <div class="pizza-container">
-                    @foreach (var pizza in Model)
-                    {
-                        <div class="pizza-item">
-                            <div class="img-container">
-                                <img src="~/@pizza.Image" alt="@pizza.Name">
-                                <img src="~/@pizza.Image" alt="@pizza.Name" class="zoomed-img">
-                            </div>
-                            <strong>@pizza.Name</strong>
-                            <p>@pizza.Ingredients</p>
-                            <p>Цена: @pizza.Price</p>
-                            <a href="#">Выбрать</a>
-                        </div>
-                    }
+                    @* @foreach (var pizza in Model) *@
+                    @* { *@
+                    @*     <div class="pizza-item"> *@
+                    @*         <div class="img-container"> *@
+                    @*             <img src="~/@pizza.Image" alt="@pizza.Name"> *@
+                    @*             <img src="~/@pizza.Image" alt="@pizza.Name" class="zoomed-img"> *@
+                    @*         </div> *@
+                    @*         <strong>@pizza.Name</strong> *@
+                    @*         <p>@pizza.Ingredients</p> *@
+                    @*         <p>Цена: @pizza.Price</p> *@
+                    @*         <a href="#">Выбрать</a> *@
+                    @*     </div> *@
+                    @* } *@
                 </div>
             </div>
         </div>

@@ -39,6 +39,14 @@ WORKDIR /app
 COPY --from=publish /app/publish .
 #COPY wait-for-db.sh /app/
 
+USER root
+RUN mkdir -p /app/wwwroot/images/pizza && \
+    chown -R $APP_UID:$APP_UID /app/wwwroot/images/pizza && \
+    chmod -R 755 /app/wwwroot/images/pizza
+
+# Возвращаемся к обычному пользователю
+USER $APP_UID
+
 # Используем полный путь к скрипту
 #ENTRYPOINT ["/app/wait-for-db.sh", "dotnet", "/app/GigaPizza.dll"]
 ENTRYPOINT ["dotnet", "/app/GigaPizza.dll"]

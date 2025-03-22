@@ -25,12 +25,20 @@
       "PackagePath": "staticwebassets\\images\\map.png"
     },
     {
-      "Id": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\cancel.png",
-      "PackagePath": "staticwebassets\\images\\pizza\\cancel.png"
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\23e055ea-63bc-474e-91cc-99909d233f77.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\23e055ea-63bc-474e-91cc-99909d233f77.png"
     },
     {
-      "Id": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\close (1).png",
-      "PackagePath": "staticwebassets\\images\\pizza\\close (1).png"
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\f9a0c301-03df-413c-8229-3b20532801b3.png",
+      "PackagePath": "staticwebassets\\images\\pizza\\f9a0c301-03df-413c-8229-3b20532801b3.png"
     },
     {
       "Id": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\pizza_arriva.avif",
@@ -69,8 +77,8 @@
       "PackagePath": "staticwebassets\\images\\pizza\\pizza_with_adjika.avif"
     },
     {
-      "Id": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\s1200 (1).jpg",
-      "PackagePath": "staticwebassets\\images\\pizza\\s1200 (1).jpg"
+      "Id": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza\\ЖабаСтруктура.drawio (1).drawio (1).png",
+      "PackagePath": "staticwebassets\\images\\pizza\\ЖабаСтруктура.drawio (1).drawio (1).png"
     },
     {
       "Id": "C:\\Users\\Lenovo\\source\\repos\\GigaPizza\\GigaPizza\\wwwroot\\images\\pizza_locations\\location_1.webp",

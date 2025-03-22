@@ -1,4 +1,4 @@
-﻿using GigaPizza.Utils;
+﻿using GigaPizza.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

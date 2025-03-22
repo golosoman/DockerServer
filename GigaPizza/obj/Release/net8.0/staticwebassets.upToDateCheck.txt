@@ -3,8 +3,10 @@ wwwroot\favicon.ico
 wwwroot\images\components\logo.png
 wwwroot\images\components\trash.png
 wwwroot\images\map.png
-wwwroot\images\pizza\cancel.png
-wwwroot\images\pizza\close (1).png
+wwwroot\images\pizza\23e055ea-63bc-474e-91cc-99909d233f77.png
+wwwroot\images\pizza\951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png
+wwwroot\images\pizza\a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png
+wwwroot\images\pizza\f9a0c301-03df-413c-8229-3b20532801b3.png
 wwwroot\images\pizza\pizza_arriva.avif
 wwwroot\images\pizza\pizza_beef_stroganoff.avif
 wwwroot\images\pizza\pizza_cheese.avif
@@ -14,7 +16,7 @@ wwwroot\images\pizza\pizza_hum_and_mushrooms.avif
 wwwroot\images\pizza\pizza_margarita.avif
 wwwroot\images\pizza\pizza_pepperoni.avif
 wwwroot\images\pizza\pizza_with_adjika.avif
-wwwroot\images\pizza\s1200 (1).jpg
+wwwroot\images\pizza\ЖабаСтруктура.drawio (1).drawio (1).png
 wwwroot\images\pizza_locations\location_1.webp
 wwwroot\images\pizza_locations\location_2.jpg
 wwwroot\images\pizza_locations\location_3.webp

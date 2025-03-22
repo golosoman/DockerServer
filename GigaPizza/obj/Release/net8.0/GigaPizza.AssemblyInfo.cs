@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GigaPizza")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3f76d7f58c3217a1273d7079719a0702214e4e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("GigaPizza")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GigaPizza")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

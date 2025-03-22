@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GigaPizza.mcupegxqek.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GvyKT\u002B2K0tqjfdjbUgPD08QpAMGAWlFKgpua0Zuzqek="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GvyKT\u002B2K0tqjfdjbUgPD08QpAMGAWlFKgpua0Zuzqek=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 18:04:09 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GvyKT\u002B2K0tqjfdjbUgPD08QpAMGAWlFKgpua0Zuzqek=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Mar 2025 14:40:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GigaPizza/GigaPizza.mcupegxqek.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GigaPizza.mcupegxqek.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mcupegxqek"},{"Name":"integrity","Value":"sha256-GvyKT\u002B2K0tqjfdjbUgPD08QpAMGAWlFKgpua0Zuzqek="},{"Name":"label","Value":"_content/GigaPizza/GigaPizza.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GvyKT\u002B2K0tqjfdjbUgPD08QpAMGAWlFKgpua0Zuzqek=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 18:04:09 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1127"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022GvyKT\u002B2K0tqjfdjbUgPD08QpAMGAWlFKgpua0Zuzqek=\u0022"},{"Name":"Last-Modified","Value":"Wed, 19 Mar 2025 14:40:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GigaPizza/images/components/logo.6lll9j4whk.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\components\logo.png'))</AssetFile>
@@ -72,29 +72,53 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"x1ol1y7ty6"},{"Name":"integrity","Value":"sha256-BYYDeXe4eh0nSjNRDyCUztoh/c9msXdj26qDhL/ifHE="},{"Name":"label","Value":"_content/GigaPizza/images/map.png"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"54962"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022BYYDeXe4eh0nSjNRDyCUztoh/c9msXdj26qDhL/ifHE=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Dec 2024 20:20:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/cancel.30por7aqt8.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\cancel.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/23e055ea-63bc-474e-91cc-99909d233f77.1ys3rsbeso.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\23e055ea-63bc-474e-91cc-99909d233f77.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"30por7aqt8"},{"Name":"integrity","Value":"sha256-bdTZUJ6jrKjqGkTa7BZdyHitoLpbdbQ/WkSmoPrJpPc="},{"Name":"label","Value":"_content/GigaPizza/images/pizza/cancel.png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20207"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022bdTZUJ6jrKjqGkTa7BZdyHitoLpbdbQ/WkSmoPrJpPc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 08:25:45 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ys3rsbeso"},{"Name":"integrity","Value":"sha256-SdCJF5BWB\u002B8COhOa7y2zGztVReEdGaW/hTCqIwqA66c="},{"Name":"label","Value":"_content/GigaPizza/images/pizza/23e055ea-63bc-474e-91cc-99909d233f77.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19680"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022SdCJF5BWB\u002B8COhOa7y2zGztVReEdGaW/hTCqIwqA66c=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 19:10:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/cancel.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\cancel.png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/23e055ea-63bc-474e-91cc-99909d233f77.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\23e055ea-63bc-474e-91cc-99909d233f77.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bdTZUJ6jrKjqGkTa7BZdyHitoLpbdbQ/WkSmoPrJpPc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20207"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022bdTZUJ6jrKjqGkTa7BZdyHitoLpbdbQ/WkSmoPrJpPc=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 08:25:45 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SdCJF5BWB\u002B8COhOa7y2zGztVReEdGaW/hTCqIwqA66c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19680"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022SdCJF5BWB\u002B8COhOa7y2zGztVReEdGaW/hTCqIwqA66c=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 19:10:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/close (1).png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\close (1).png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/951f0aee-45e3-4bd5-becb-9e9b56c6abd2.1ys3rsbeso.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dj0Yna9n/8VZLASgsDTfdD8oJsG7Qjyh5xb9aJC5EWk="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19032"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022dj0Yna9n/8VZLASgsDTfdD8oJsG7Qjyh5xb9aJC5EWk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 09:00:56 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1ys3rsbeso"},{"Name":"integrity","Value":"sha256-SdCJF5BWB\u002B8COhOa7y2zGztVReEdGaW/hTCqIwqA66c="},{"Name":"label","Value":"_content/GigaPizza/images/pizza/951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19680"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022SdCJF5BWB\u002B8COhOa7y2zGztVReEdGaW/hTCqIwqA66c=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 19:11:19 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/close (1).u2xklxoqgx.png">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\close (1).png'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\951f0aee-45e3-4bd5-becb-9e9b56c6abd2.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u2xklxoqgx"},{"Name":"integrity","Value":"sha256-dj0Yna9n/8VZLASgsDTfdD8oJsG7Qjyh5xb9aJC5EWk="},{"Name":"label","Value":"_content/GigaPizza/images/pizza/close (1).png"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19032"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022dj0Yna9n/8VZLASgsDTfdD8oJsG7Qjyh5xb9aJC5EWk=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 09:00:56 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-SdCJF5BWB\u002B8COhOa7y2zGztVReEdGaW/hTCqIwqA66c="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19680"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022SdCJF5BWB\u002B8COhOa7y2zGztVReEdGaW/hTCqIwqA66c=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 19:11:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/a61d7fd8-b700-40ee-ac7f-b1198941d4ea.e337n0y6nc.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"e337n0y6nc"},{"Name":"integrity","Value":"sha256-lt2AynzSXiLnuZcTCBmych5mJcTU05KWXwLjxMNF5Ds="},{"Name":"label","Value":"_content/GigaPizza/images/pizza/a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"189064"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022lt2AynzSXiLnuZcTCBmych5mJcTU05KWXwLjxMNF5Ds=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 18:18:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\a61d7fd8-b700-40ee-ac7f-b1198941d4ea.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-lt2AynzSXiLnuZcTCBmych5mJcTU05KWXwLjxMNF5Ds="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"189064"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022lt2AynzSXiLnuZcTCBmych5mJcTU05KWXwLjxMNF5Ds=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 18:18:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/f9a0c301-03df-413c-8229-3b20532801b3.iu84zue1jr.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\f9a0c301-03df-413c-8229-3b20532801b3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"iu84zue1jr"},{"Name":"integrity","Value":"sha256-Np88\u002BUWMlC2UuWKDpXmINokkCVjRIpbx97SNwYQAO40="},{"Name":"label","Value":"_content/GigaPizza/images/pizza/f9a0c301-03df-413c-8229-3b20532801b3.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17094"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Np88\u002BUWMlC2UuWKDpXmINokkCVjRIpbx97SNwYQAO40=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 19:08:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/f9a0c301-03df-413c-8229-3b20532801b3.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\f9a0c301-03df-413c-8229-3b20532801b3.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Np88\u002BUWMlC2UuWKDpXmINokkCVjRIpbx97SNwYQAO40="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17094"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022Np88\u002BUWMlC2UuWKDpXmINokkCVjRIpbx97SNwYQAO40=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 19:08:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/pizza_arriva.90sevv4jvd.avif">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\pizza_arriva.avif'))</AssetFile>
@@ -204,17 +228,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sjvxvktter"},{"Name":"integrity","Value":"sha256-CIP8O7H945W7tCwZhQlBKXdpnDuhRwpHDBfLGCXPk3Q="},{"Name":"label","Value":"_content/GigaPizza/images/pizza/pizza_with_adjika.avif"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"100780"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022CIP8O7H945W7tCwZhQlBKXdpnDuhRwpHDBfLGCXPk3Q=\u0022"},{"Name":"Last-Modified","Value":"Sun, 01 Dec 2024 19:02:45 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/s1200 (1).jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\s1200 (1).jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/ЖабаСтруктура.drawio (1).drawio (1).9fg9rqi3n6.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\ЖабаСтруктура.drawio (1).drawio (1).png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GO8dvljLQ/vkL8uBOBNmjh9CePlJCVqgRbKnAOeHhN0="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"125570"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GO8dvljLQ/vkL8uBOBNmjh9CePlJCVqgRbKnAOeHhN0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 08:28:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9fg9rqi3n6"},{"Name":"integrity","Value":"sha256-m8EnXQir5nDjGbNZKhr\u002Bgk\u002BdYzsHr2B1YU34KHH3VtI="},{"Name":"label","Value":"_content/GigaPizza/images/pizza/\u0416\u0430\u0431\u0430\u0421\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0430.drawio (1).drawio (1).png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"54089"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022m8EnXQir5nDjGbNZKhr\u002Bgk\u002BdYzsHr2B1YU34KHH3VtI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 17:38:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/s1200 (1).kl6m64n2fu.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\s1200 (1).jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza/ЖабаСтруктура.drawio (1).drawio (1).png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza\ЖабаСтруктура.drawio (1).drawio (1).png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kl6m64n2fu"},{"Name":"integrity","Value":"sha256-GO8dvljLQ/vkL8uBOBNmjh9CePlJCVqgRbKnAOeHhN0="},{"Name":"label","Value":"_content/GigaPizza/images/pizza/s1200 (1).jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"125570"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022GO8dvljLQ/vkL8uBOBNmjh9CePlJCVqgRbKnAOeHhN0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 08:28:28 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-m8EnXQir5nDjGbNZKhr\u002Bgk\u002BdYzsHr2B1YU34KHH3VtI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"54089"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022m8EnXQir5nDjGbNZKhr\u002Bgk\u002BdYzsHr2B1YU34KHH3VtI=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 17:38:49 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GigaPizza/images/pizza_locations/location_1.7cb6hih67f.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\pizza_locations\location_1.webp'))</AssetFile>
@@ -1008,29 +1032,29 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Sat, 08 Mar 2025 18:46:17 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GigaPizza/scripts/pizza_catalog.j5gpap8zpt.js">
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/scripts/pizza_catalog.0ttwjmreu1.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scripts\pizza_catalog.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"j5gpap8zpt"},{"Name":"integrity","Value":"sha256-B6zUgwPIGLslq4Zg1GXxQkgCJhr0z59AVlbHpB9pZk4="},{"Name":"label","Value":"_content/GigaPizza/scripts/pizza_catalog.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7066"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022B6zUgwPIGLslq4Zg1GXxQkgCJhr0z59AVlbHpB9pZk4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 18:12:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0ttwjmreu1"},{"Name":"integrity","Value":"sha256-5Jn4qn1IwvVECzwgagIsTelcojiwi6w2mHxaD9rjUKQ="},{"Name":"label","Value":"_content/GigaPizza/scripts/pizza_catalog.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"11544"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225Jn4qn1IwvVECzwgagIsTelcojiwi6w2mHxaD9rjUKQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 17:25:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GigaPizza/scripts/pizza_catalog.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scripts\pizza_catalog.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-B6zUgwPIGLslq4Zg1GXxQkgCJhr0z59AVlbHpB9pZk4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"7066"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022B6zUgwPIGLslq4Zg1GXxQkgCJhr0z59AVlbHpB9pZk4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 18:12:18 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5Jn4qn1IwvVECzwgagIsTelcojiwi6w2mHxaD9rjUKQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"11544"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u00225Jn4qn1IwvVECzwgagIsTelcojiwi6w2mHxaD9rjUKQ=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 17:25:34 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GigaPizza/scripts/validator.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scripts\validator.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Y6gLg0SdTRU4Nxl8ymSbWrlu9A6KsnKCqbiDxnBbbVA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"6260"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Y6gLg0SdTRU4Nxl8ymSbWrlu9A6KsnKCqbiDxnBbbVA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 19:52:09 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ompctjshkBxg7763QhGvAdL/4kUiQ4Jh7b65dMAdkwc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8218"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ompctjshkBxg7763QhGvAdL/4kUiQ4Jh7b65dMAdkwc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 19:08:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GigaPizza/scripts/validator.nb85vsokdo.js">
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/scripts/validator.qy429nwafc.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\scripts\validator.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nb85vsokdo"},{"Name":"integrity","Value":"sha256-Y6gLg0SdTRU4Nxl8ymSbWrlu9A6KsnKCqbiDxnBbbVA="},{"Name":"label","Value":"_content/GigaPizza/scripts/validator.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6260"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Y6gLg0SdTRU4Nxl8ymSbWrlu9A6KsnKCqbiDxnBbbVA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 19:52:09 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qy429nwafc"},{"Name":"integrity","Value":"sha256-ompctjshkBxg7763QhGvAdL/4kUiQ4Jh7b65dMAdkwc="},{"Name":"label","Value":"_content/GigaPizza/scripts/validator.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8218"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022ompctjshkBxg7763QhGvAdL/4kUiQ4Jh7b65dMAdkwc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 21 Mar 2025 19:08:24 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GigaPizza/styles/base_style.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles\base_style.css'))</AssetFile>
@@ -1068,29 +1092,29 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fbj4g79myi"},{"Name":"integrity","Value":"sha256-y9byeXPbytRrjIo4QKA4ZCuS45xjKDq/GhQl7ZM6y8E="},{"Name":"label","Value":"_content/GigaPizza/styles/form_style.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"475"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022y9byeXPbytRrjIo4QKA4ZCuS45xjKDq/GhQl7ZM6y8E=\u0022"},{"Name":"Last-Modified","Value":"Sun, 08 Dec 2024 20:51:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GigaPizza/styles/pizza_add.cq4dcr2o56.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles\pizza_add.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cq4dcr2o56"},{"Name":"integrity","Value":"sha256-zK5C3Wzd4mzCnc7bapwRKdax4xZluXcXn2//hC3cZZA="},{"Name":"label","Value":"_content/GigaPizza/styles/pizza_add.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1370"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zK5C3Wzd4mzCnc7bapwRKdax4xZluXcXn2//hC3cZZA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 19:11:29 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GigaPizza/styles/pizza_add.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles\pizza_add.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zK5C3Wzd4mzCnc7bapwRKdax4xZluXcXn2//hC3cZZA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1370"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022zK5C3Wzd4mzCnc7bapwRKdax4xZluXcXn2//hC3cZZA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 07 Mar 2025 19:11:29 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-35qUK9aKWhHiYb63TbXCM\u002BLSnABczGitXWVdXnk8vDo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1705"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002235qUK9aKWhHiYb63TbXCM\u002BLSnABczGitXWVdXnk8vDo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 19:40:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GigaPizza/styles/pizza_add.txm8rpo7ao.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles\pizza_add.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"txm8rpo7ao"},{"Name":"integrity","Value":"sha256-35qUK9aKWhHiYb63TbXCM\u002BLSnABczGitXWVdXnk8vDo="},{"Name":"label","Value":"_content/GigaPizza/styles/pizza_add.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1705"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u002235qUK9aKWhHiYb63TbXCM\u002BLSnABczGitXWVdXnk8vDo=\u0022"},{"Name":"Last-Modified","Value":"Fri, 14 Mar 2025 19:40:00 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GigaPizza/styles/pizza_catalog.7hqjxu0xsy.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles\pizza_catalog.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7hqjxu0xsy"},{"Name":"integrity","Value":"sha256-y0VVZHNLxINxZLhY\u002B5DuxHfIzquqW8yflnWLkF6b4XE="},{"Name":"label","Value":"_content/GigaPizza/styles/pizza_catalog.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1816"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022y0VVZHNLxINxZLhY\u002B5DuxHfIzquqW8yflnWLkF6b4XE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 17:42:30 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1816"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022y0VVZHNLxINxZLhY\u002B5DuxHfIzquqW8yflnWLkF6b4XE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Mar 2025 17:03:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GigaPizza/styles/pizza_catalog.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles\pizza_catalog.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-y0VVZHNLxINxZLhY\u002B5DuxHfIzquqW8yflnWLkF6b4XE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1816"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022y0VVZHNLxINxZLhY\u002B5DuxHfIzquqW8yflnWLkF6b4XE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 28 Feb 2025 17:42:30 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1816"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022y0VVZHNLxINxZLhY\u002B5DuxHfIzquqW8yflnWLkF6b4XE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 20 Mar 2025 17:03:21 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GigaPizza/styles/pizza_item_style.bs4hqkyyea.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles\pizza_item_style.css'))</AssetFile>

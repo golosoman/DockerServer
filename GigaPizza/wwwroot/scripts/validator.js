@@ -35,8 +35,8 @@ function validatePrice() {
     errorSpan.innerHTML = '';
     errorSpan.style.display = 'none';
 
-    if (price <= 0) {
-        errorSpan.innerHTML = 'Цена должна быть положительной.';
+    if (price <= 200) {
+        errorSpan.innerHTML = 'Цена должна быть положительной и больше либо равно 200.';
         errorSpan.style.display = 'inline';
     }
 }
@@ -106,6 +106,7 @@ function validateRecommendedDrinks() {
     }
 }
 
+// Вешаем обработчики валидации на события
 document.getElementById('recommended-drinks').addEventListener('input', validateRecommendedDrinks);
 document.getElementById('pizza-name').addEventListener('input', validatePizzaName);
 document.getElementById('ingredients').addEventListener('input', validateIngredients);
@@ -118,9 +119,10 @@ checkboxes.forEach(checkbox => {
     checkbox.addEventListener('change', validateCategory);
 });
 
-document.getElementById('pizza-form').addEventListener('submit', function(event) {
+// Обработка отправки формы через AJAX
+document.getElementById('pizza-form').addEventListener('submit', function (event) {
     event.preventDefault();
-    
+
     // Выполняем все проверки перед отправкой
     validatePizzaName();
     validateIngredients();
@@ -131,11 +133,51 @@ document.getElementById('pizza-form').addEventListener('submit', function(event)
     validateRecommendedDrinks();
 
     const hasError = document.querySelectorAll('.error-message[style*="display: inline"]').length > 0;
-
     if (hasError) {
-        // Если есть ошибки, ничего не делаем
-    } else {
-        // Отправляем форму после успешной валидации
-        this.submit(); // Это отправит форму на сервер
+        // Если есть ошибки, не отправляем форму
+        return;
     }
+
+    // Собираем данные формы
+    const form = this;
+    const formData = new FormData(form);
+
+    // Опционально: можно вывести данные для отладки
+    // for (let [key, value] of formData.entries()) {
+    //     console.log(`${key}: ${value}`);
+    // }
+
+    // Отправка AJAX-запроса
+    fetch(form.action, {
+        method: form.method,
+        body: formData
+    })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Ошибка при отправке данных');
+            }
+            return response.json();
+        })
+        .then(data => {
+            // Обработка ответа сервера
+            if (data.success) {
+                alert('Пицца успешно добавлена!');
+                // При необходимости можно перенаправить пользователя или сбросить форму:
+                form.reset();
+            } else {
+                // Если сервер вернул ошибки валидации, отобразите их
+                // Например, data.errors может быть объектом с ключами, соответствующими именам полей
+                for (const key in data.errors) {
+                    const errorSpan = document.getElementById(`${key.toLowerCase()}-error`);
+                    if (errorSpan) {
+                        errorSpan.innerHTML = data.errors[key];
+                        errorSpan.style.display = 'inline';
+                    }
+                }
+            }
+        })
+        .catch(error => {
+            console.error('Ошибка отправки формы:', error);
+            alert('При отправке данных произошла ошибка.');
+        });
 });
